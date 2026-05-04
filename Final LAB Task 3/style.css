@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+table td {
+    padding: 8px;
+    text-align: left;
+}
+
+label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+table td input[type="radio"], table td input[type="checkbox"] {
+    margin: 0 10px 0 0;
+}
+
+table {
+    width: 100%;
+}
+
+table input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Gender Section Alignment */
+fieldset {
+    display: flex;
+    justify-content: space-evenly; /* Align radio buttons horizontally */
+    align-items: center; /* Center the radio buttons vertically */
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+p {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
